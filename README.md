@@ -17,4 +17,6 @@ To run the script, simply
 
 This will pop up several windows showing found features and processed images.
 
+In this image below 3 objects are detected. Yellow rectangles show the bounding boxes for detected objects. It is possible to adjust the amount of smoothing, or eroding applied to this image and it will remarkably change the object detection rate. Depending on the surface of the object(s) you are trying to detect, you may want to use SURF (e.g. if there are patterns) or not. You can somewhat control the behavior of the script by adjusting the find_surf, dilation, erosion, adaptive_threshold and smooth variables.
+
 ![countourfind](http://users.wpi.edu/~benersuay/resimler/projects/contourfind.png "Contour Find")
